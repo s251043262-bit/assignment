@@ -133,3 +133,22 @@ The work done $W$ is positive when the system expands against an external pressu
 
 # Bibliography
 <div id="refs"></div>
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Score Distribution
+Here's the distribution of Math scores:
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/math_score_histogram.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling="no">
+</iframe>
+:::
+::::
