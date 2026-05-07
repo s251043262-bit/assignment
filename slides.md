@@ -165,3 +165,16 @@ Here's the distribution of Math scores:
     <iframe data-src='media/plots/math_histogram.html' width='100%' height='500px' style='border:none;'></iframe>
   </div>
 </div>
+
+---
+## Bar Chart of Math Scores
+
+<div class="columns">
+  <div class="left">
+    <p>This bar chart displays the distribution of Math scores, grouped into 50-point bins. Each bar represents the frequency (count) of students whose Math scores fall within that specific range.</p>
+    <p>This visualization allows for an understanding of score concentrations across different intervals, providing an alternative perspective to the histogram and highlighting the counts per score bracket.</p>
+  </div>
+  <div class="right">
+    <iframe data-src='media/plots/math_barchart.html' width='100%' height='500px' style='border:none;'></iframe>
+  </div>
+</div>
