@@ -152,3 +152,16 @@ Here's the distribution of Math scores:
 </iframe>
 :::
 ::::
+
+---
+## Distribution of Math Scores
+
+<div class="columns">
+  <div class="left">
+    <p>This histogram visualizes the distribution of Math scores from the <code>bigclass</code> dataset. We can observe the frequency of different score ranges. The scores appear to range from approximately 200 to 800, with a notable concentration around the mid-range.</p>
+    <p>The histogram uses a bin width of 50 to group the scores, providing a clear overview of where most students fall within the Math score spectrum.</p>
+  </div>
+  <div class="right">
+    <iframe data-src='media/plots/math_histogram.html' width='100%' height='500px' style='border:none;'></iframe>
+  </div>
+</div>
