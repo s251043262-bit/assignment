@@ -8,21 +8,21 @@ max_math <- max(bigclass$Math, na.rm = TRUE)
 bin_width <- 50
 breaks <- seq(floor(min_math / bin_width) * bin_width, ceiling(max_math / bin_width) * bin_width + bin_width, by = bin_width)
 
-bigclass_binned <- bigclass %>%
-  mutate(Math_Bin = cut(Math, breaks = breaks, include.lowest = TRUE, right = FALSE)) %>%
+bigclass_binned <- bigclass %>% 
+  mutate(Math_Bin = cut(Math, breaks = breaks, include.lowest = TRUE, right = FALSE)) %>% 
   group_by(Math_Bin) %>% 
   summarise(Count = n()) %>% 
   ungroup()
 
-p_bar <- ggplot(bigclass_binned, aes(x = Math_Bin, y = Count, fill = Math_Bin)) +
-  geom_bar(stat = "identity", color = "white", show.legend = FALSE) +
-  scale_fill_manual(values = rep(c("#0072B2", "#D55E00", "#009E73", "#CC79A7"), length.out = nrow(bigclass_binned))) +
+p_bar <- ggplot(bigclass_binned, aes(x = Math_Bin, y = Count, fill = Math_Bin)) + 
+  geom_bar(stat = "identity", color = "white", show.legend = FALSE) + 
+  scale_fill_manual(values = rep(c("#0072B2", "#D55E00", "#009E73", "#CC79A7"), length.out = nrow(bigclass_binned))) + 
   labs(
     title = "Bar Chart of Math Scores (Binned)",
     x = "Math Score Bins",
     y = "Frequency"
-  ) +
-  theme_minimal() +
+  ) + 
+  theme_minimal() + 
   theme(
     axis.title.x = element_text(size = 18),
     axis.title.y = element_text(size = 18),
