@@ -275,3 +275,29 @@ This plot allows us to observe trends and correlations between height and weight
 </iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Xbar Chart: Part Resistance (Machine 1)
+This Xbar chart monitors the `PartResistance` for `Machine 1` operating at `Temperature 303` and `Pressure 100`. The chart helps identify if the process is in statistical control by displaying individual observations relative to a center line (process mean) and control limits (Upper Control Limit - UCL, Lower Control Limit - LCL).
+
+**Key Statistics for Part Resistance:**
+- **Mean:** 6.6744
+- **Median:** 6.6852
+- **Standard Deviation:** 0.2525
+
+Analyze the plot for any points outside the control limits or non-random patterns, which could indicate special cause variation.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/xbar_partresistance_machine1.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling="no">
+</iframe>
+:::
+::::
