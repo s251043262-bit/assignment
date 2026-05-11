@@ -191,3 +191,87 @@ Here's the distribution of Math scores:
     <iframe data-src='media/plots/math_barchart.html' width='100%' height='500px' style='border:none;'></iframe>
   </div>
 </div>
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Distribution of Age
+This histogram visualizes the distribution of ages within the `bigclass` dataset. Each bar represents the frequency of individuals within a one-year age bin.
+
+This plot helps us understand the age composition of the dataset, showing where the majority of individuals are concentrated and the overall spread of ages.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/age_histogram.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Average Math Score by Sex
+This bar chart illustrates the average Math scores for male and female students in the `bigclass` dataset. Each bar represents the mean Math score for that particular sex.
+
+This visualization helps to quickly identify any potential differences in average Math performance between the sexes.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/avg_math_by_sex_barchart.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Weight Distribution by Sex
+This boxplot displays the distribution of weight for each sex in the `bigclass` dataset. Boxplots are effective for showing the median, quartiles, and potential outliers of a numerical distribution for different groups.
+
+This plot allows for a visual comparison of weight characteristics between male and female students.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/weight_boxplot_by_sex.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Height vs. Weight by Sex
+This scatterplot visualizes the relationship between height and weight, with points colored according to the individual's sex in the `bigclass` dataset. Each point represents a student, showing their height on the x-axis and weight on the y-axis.
+
+This plot allows us to observe trends and correlations between height and weight, and how these relationships might differ between sexes.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/height_weight_scatterplot.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling="no">
+</iframe>
+:::
+::::
